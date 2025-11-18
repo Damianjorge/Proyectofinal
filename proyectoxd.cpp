@@ -109,7 +109,6 @@ int main() {
                 opcion = 3; 
                 break;
             } 
-porno
             case 3:
                 cout<< "Hasta pronto, "<< nombre << "!"<<endl;
                 break;
