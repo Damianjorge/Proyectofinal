@@ -21,9 +21,9 @@ int main() {
     cout<< " Hola! Por favor ingresa tu nombre: "<<endl;
     cin>> nombre;
 
-    // EL BUCLE EXTERNO: REINICIA EL MENÚ DESPUÉS DE CADA ACCIÓN (excepto Salir)
+    // EL BUCLE EXTERNO: REINICIA EL MENÃš DESPUÃ‰S DE CADA ACCIÃ“N (excepto Salir)
     do {
-        // --- 1. MOSTRAR MENÚ Y PEDIR OPCIÓN ---
+        // --- 1. MOSTRAR MENÃš Y PEDIR OPCIÃ“N ---
         cout<< "\nBIENVENIDO, querido usuario "<< nombre<< ", a la Mision de Estrellas!"<<endl;
         cout<< "Elige una opcion para continuar:"<<endl;
         cout<< "1. Ver la Mision" <<endl;
@@ -32,10 +32,10 @@ int main() {
         cout<< "Opcion: ";
         cin>> opcion;
 
-        // --- 2. EVALUAR Y EJECUTAR ACCIÓN ---
+        // --- 2. EVALUAR Y EJECUTAR ACCIÃ“N ---
         switch (opcion) {
             case 1: 
-                // CASE 1: Misión / Instrucciones (Vuelve al inicio del DO-WHILE)
+                // CASE 1: MisiÃ³n / Instrucciones (Vuelve al inicio del DO-WHILE)
                 cout<< "------------ EL GRAN DESAFIO MENTAL ------------"<<endl;
                 cout<< "Bienvenido, "<< nombre << "!"<<endl;
                 cout<< "Tu mision es simple: Un antiguo pergamino contiene 5 acertijos matematicos."<<endl;
@@ -45,7 +45,7 @@ int main() {
                 break;
 
             case 2: { 
-                // CASE 2: Iniciar Juego (NO vuelve al menú, fuerza la salida)
+                // CASE 2: Iniciar Juego (NO vuelve al menÃº, fuerza la salida)
                 cout<< "------------ COMIENZA EL DESAFIO ------------"<<endl<<endl;
                 
                 puntaje = 0;
@@ -57,23 +57,23 @@ int main() {
 
                     switch (i) {
                         case 0:
-                            cout<< "¿Cuanto es 5 + 5?"<<endl; 
+                            cout<< "Â¿Cuanto es 5 + 5?"<<endl; 
                             cout<< "Opciones: [ 8 ] [ 10 ] [ 12 ]"<<endl;
                             break;
                         case 1:
-                            cout<< "¿Cuanto es 10 - 4?"<<endl;
+                            cout<< "Â¿Cuanto es 10 - 4?"<<endl;
                             cout<< "Opciones: [ 7 ] [ 4 ] [ 6 ]"<<endl;
                             break;
                         case 2:
-                            cout<< "¿Cuanto es 3 x 3?"<<endl;
+                            cout<< "Â¿Cuanto es 3 x 3?"<<endl;
                             cout<< "Opciones: [ 6 ] [ 9 ] [ 10 ]"<<endl;
                             break;
                         case 3:
-                            cout<< "¿Cuanto es 8 ÷ 2?"<<endl;
+                            cout<< "Â¿Cuanto es 8 Ã· 2?"<<endl;
                             cout<< "Opciones: [ 2 ] [ 4 ] [ 16 ]"<<endl;
                             break;
                         case 4:
-                            cout<< "Si 2(x) = 10. ¿Cuanto vale x?"<<endl;
+                            cout<< "Si 2(x) = 10. Â¿Cuanto vale x?"<<endl;
                             cout<< "Opciones: [ 12 ] [ 5 ] [ 8 ]"<<endl;
                             break;
                     }
@@ -109,7 +109,7 @@ int main() {
                 opcion = 3; 
                 break;
             } 
-
+porno
             case 3:
                 cout<< "Hasta pronto, "<< nombre << "!"<<endl;
                 break;
